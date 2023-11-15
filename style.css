@@ -1,0 +1,117 @@
+/* Kommentare strg + # */
+
+/* Allgemein */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+/* header + Menue*/
+header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background-color: beige;
+    height: 180px;
+}
+
+header img {
+    width: 80px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+}
+
+header li {
+    border: 1px solid rgb(104, 110, 104);
+    background-color: rgb(5, 5, 5);
+    padding: 5px;
+    color: white;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+
+
+/* Gallerie */
+/* figure - semantischer Container für Bilder */
+
+figure {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure img {
+    border-radius: 5px;
+}
+
+/* links und rechts Container für Artikel content */
+/* linker Container  */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-right: 1px solid black;
+}
+
+.container .links {
+    margin-top: 10px;
+    width: 670px;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    border-radius: 5px;
+    object-fit: cover;
+    align-items: center;
+}
+
+/* rechter Bereich */
+div .rechts {
+    margin-top: 10px;
+    width: 300px;
+    border-left: 1px solid black;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.rechts h3 {
+    border-radius: 5px;
+    background-color: rgb(238, 236, 236);
+    padding: 5px;
+}
+
+.rechts p {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+}
